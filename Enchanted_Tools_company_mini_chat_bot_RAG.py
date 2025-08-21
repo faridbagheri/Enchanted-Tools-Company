@@ -88,7 +88,7 @@ def build_rag_chain(json_file: str):
 
     llm = ChatOpenAI(model_name=MODEL, temperature=TEMPERATURE)
 
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    memory = ConversationBufferMemory(memory_key="chat_history", k=MAX_TURNS_MEMORY,return_messages=True)
 
     chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectorstore.as_retriever(), memory=memory)
 
