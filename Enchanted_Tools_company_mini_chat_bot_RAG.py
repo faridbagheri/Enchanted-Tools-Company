@@ -1,5 +1,5 @@
 """
-CLI Chatbot with RAG (Hospital + Concierge)
+CLI Chatbot with RAG (Hospital + Hotel)
 - Context-aware assistant with role selection.
 - Retrieval-Augmented Generation (RAG) using JSON datasets.
 - Commands: /reset /exit /help
@@ -46,12 +46,12 @@ Tone: upbeat, helpful, slightly playful but always professional."""
 
 ROLE_TO_PROMPT = {
     "hospital": HOSPITAL_SYSTEM_PROMPT,
-    "concierge": CONCIERGE_SYSTEM_PROMPT,
+    "hotel": CONCIERGE_SYSTEM_PROMPT,
 }
 
 ROLE_TO_DATASET = {
     "hospital": "california_general_hospital.json",
-    "concierge": "Concierge_dataset.json",
+    "hotel": "Concierge_dataset.json",
 }
 
 # -------------- Build RAG Pipeline --------------
@@ -124,7 +124,7 @@ def print_header(role: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--role", choices=["hospital", "concierge"], default=None,
+    parser.add_argument("--role", choices=["hospital", "hotel"], default=None,
                         help="Choose chatbot role")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
@@ -132,7 +132,7 @@ def main():
     # If no role provided, ask interactively
     role = args.role
     if not role:
-        role = input("Choose role (hospital/concierge): ").strip().lower()
+        role = input("Choose role (hospital/hotel): ").strip().lower()
         if role not in ROLE_TO_PROMPT:
             print("Invalid role. Exiting.")
             return
@@ -145,7 +145,7 @@ def main():
 
     greeting = {
         "hospital": "Hello, I'm Mirokaï. How can I help you today? (I can give directions and hospital info; I don't provide medical advice.)",
-        "concierge": "Welcome! I'm Mirokaï at your service. What can I help you with—directions, recommendations, or check-in info?"
+        "hotel": "Welcome! I'm Mirokaï at your service. What can I help you with—directions, recommendations, or check-in info?"
     }[role]
     print(f"Mirokaï: {greeting}")
 
