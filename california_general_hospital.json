@@ -1,0 +1,1307 @@
+{
+  "hospital": {
+    "name": "California General Hospital",
+    "location": "Los Angeles, California, USA",
+    "address":"2051 Marengo St, Los Angeles, CA 90033, United States",
+    "website":"https://www.californiageneralhospital.gov",
+    "type": "Multi-specialty Tertiary Care Hospital",
+    "capacity": {
+      "total_beds": 300,
+      "beds_per_floor": 100,
+      "doctors": 200,
+      "nurses": 300
+    },
+    "infrastructure": {
+      "floors": 3,
+      "wcs_per_floor": 4,
+      "entrances": 4,
+      "coffee_snack_machines": 4,
+      "parking_lots": {
+        "total": 5,
+        "staff": 1,
+        "public": 4
+      },
+      "food_court": "Located near Parking Lot #1 with fast food, caf\u00e9, juice bar, mini pharmacy",
+      "helipads": 2,
+      "ambulances": 100,
+      "transport": {
+        "bus_station": "Onsite bus with shuttle to city center every 30 minutes",
+        "taxi_stand": "Available 24/7 at main gate",
+        "hotel_nearby": "3-star accommodation for families of patients"
+      }
+    },
+    "floors": [
+      {
+        "floor": 1,
+        "departments": [
+          "Neurology",
+          "Radiology",
+          "Dialysis",
+          "Registration",
+          "Emergency",
+          "Laboratory"
+        ],
+        "beds": 100,
+        "staff": {
+          "nurses": 70,
+          "doctors": 60
+        },
+        "wcs": 4,
+        "special_facilities": [
+          "Emergency Trauma Center",
+          "MRI/CT Scan unit",
+          "Blood testing laboratory",
+          "24/7 registration desk"
+        ]
+      },
+      {
+        "floor": 2,
+        "departments": [
+          "Cardiology",
+          "Behavioral Health",
+          "Health Information",
+          "Oncology",
+          "Hematology",
+          "General Inpatient Care"
+        ],
+        "beds": 100,
+        "staff": {
+          "nurses": 110,
+          "doctors": 70
+        },
+        "wcs": 4,
+        "special_facilities": [
+          "Chemotherapy unit",
+          "Heart monitoring stations",
+          "Mental health counseling rooms",
+          "Inpatient wards"
+        ]
+      },
+      {
+        "floor": 3,
+        "departments": [
+          "Obstetrics",
+          "Surgery",
+          "Intensive Care Unit",
+          "Pediatrics",
+          "Neonatal",
+          "Gastroenterology"
+        ],
+        "beds": 100,
+        "staff": {
+          "nurses": 120,
+          "doctors": 70
+        },
+        "wcs": 4,
+        "special_facilities": [
+          "Operating theaters",
+          "Maternity ward",
+          "Neonatal Intensive Care Unit (NICU)",
+          "Pediatric ward"
+        ]
+      }
+    ],
+    "doctors": [
+      {
+        "name": "Dr. Maria Kim",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 100
+      },
+      {
+        "name": "Dr. Olivia Moore",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 101
+      },
+      {
+        "name": "Dr. Hannah Lopez",
+        "department": "Emergency",
+        "expertise": "Emergency Physician",
+        "contact_extension": 102
+      },
+      {
+        "name": "Dr. Emily Ali",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 103
+      },
+      {
+        "name": "Dr. Mia Carter",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 104
+      },
+      {
+        "name": "Dr. Ava Anderson",
+        "department": "Oncology",
+        "expertise": "Chemotherapy Specialist",
+        "contact_extension": 105
+      },
+      {
+        "name": "Dr. William Johnson",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 106
+      },
+      {
+        "name": "Dr. Michael Smith",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 107
+      },
+      {
+        "name": "Dr. Isabella Ali",
+        "department": "Emergency",
+        "expertise": "Emergency Physician",
+        "contact_extension": 108
+      },
+      {
+        "name": "Dr. Joseph Lee",
+        "department": "Pediatrics",
+        "expertise": "Vaccination",
+        "contact_extension": 109
+      },
+      {
+        "name": "Dr. Mia Lee",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 110
+      },
+      {
+        "name": "Dr. James Lopez",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 111
+      },
+      {
+        "name": "Dr. Joseph Lee",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 112
+      },
+      {
+        "name": "Dr. Mia Taylor",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 113
+      },
+      {
+        "name": "Dr. Mia Anderson",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 114
+      },
+      {
+        "name": "Dr. Isabella Kim",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 115
+      },
+      {
+        "name": "Dr. James Moore",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 116
+      },
+      {
+        "name": "Dr. Ava Moore",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 117
+      },
+      {
+        "name": "Dr. Olivia Patel",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 118
+      },
+      {
+        "name": "Dr. Isabella Davis",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 119
+      },
+      {
+        "name": "Dr. John Thomas",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 120
+      },
+      {
+        "name": "Dr. William Lee",
+        "department": "Oncology",
+        "expertise": "Pediatric Oncologist",
+        "contact_extension": 121
+      },
+      {
+        "name": "Dr. Hannah Davis",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 122
+      },
+      {
+        "name": "Dr. Hannah Anderson",
+        "department": "Oncology",
+        "expertise": "Pediatric Oncologist",
+        "contact_extension": 123
+      },
+      {
+        "name": "Dr. Alexander Gonzalez",
+        "department": "Surgery",
+        "expertise": "General Surgeon",
+        "contact_extension": 124
+      },
+      {
+        "name": "Dr. Maria Patel",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 125
+      },
+      {
+        "name": "Dr. William Carter",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 126
+      },
+      {
+        "name": "Dr. Mia Johnson",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 127
+      },
+      {
+        "name": "Dr. Ethan Jackson",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 128
+      },
+      {
+        "name": "Dr. Mia Ramirez",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 129
+      },
+      {
+        "name": "Dr. David Patel",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 130
+      },
+      {
+        "name": "Dr. Mia Gonzalez",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 131
+      },
+      {
+        "name": "Dr. Michael Ali",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 132
+      },
+      {
+        "name": "Dr. Ava Ali",
+        "department": "Emergency",
+        "expertise": "Emergency Physician",
+        "contact_extension": 133
+      },
+      {
+        "name": "Dr. Ava Carter",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 134
+      },
+      {
+        "name": "Dr. Maria Martinez",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 135
+      },
+      {
+        "name": "Dr. Alexander Lee",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 136
+      },
+      {
+        "name": "Dr. Olivia Davis",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 137
+      },
+      {
+        "name": "Dr. Emily Nguyen",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 138
+      },
+      {
+        "name": "Dr. Hannah Lee",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 139
+      },
+      {
+        "name": "Dr. Ethan Johnson",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 140
+      },
+      {
+        "name": "Dr. Hannah Johnson",
+        "department": "Emergency",
+        "expertise": "Trauma Specialist",
+        "contact_extension": 141
+      },
+      {
+        "name": "Dr. John Wilson",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 142
+      },
+      {
+        "name": "Dr. Charlotte Taylor",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 143
+      },
+      {
+        "name": "Dr. Charlotte Ramirez",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 144
+      },
+      {
+        "name": "Dr. Hannah Martinez",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 145
+      },
+      {
+        "name": "Dr. Robert Davis",
+        "department": "Emergency",
+        "expertise": "Trauma Specialist",
+        "contact_extension": 146
+      },
+      {
+        "name": "Dr. Mia Nguyen",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 147
+      },
+      {
+        "name": "Dr. Ava Smith",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 148
+      },
+      {
+        "name": "Dr. David Johnson",
+        "department": "Surgery",
+        "expertise": "General Surgeon",
+        "contact_extension": 149
+      },
+      {
+        "name": "Dr. Hannah Gonzalez",
+        "department": "Surgery",
+        "expertise": "General Surgeon",
+        "contact_extension": 150
+      },
+      {
+        "name": "Dr. James Lee",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 151
+      },
+      {
+        "name": "Dr. Ethan Smith",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 152
+      },
+      {
+        "name": "Dr. Emily Davis",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 153
+      },
+      {
+        "name": "Dr. Fatima Gonzalez",
+        "department": "Obstetrics",
+        "expertise": "High-Risk Pregnancy",
+        "contact_extension": 154
+      },
+      {
+        "name": "Dr. Joseph Davis",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 155
+      },
+      {
+        "name": "Dr. Daniel Moore",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 156
+      },
+      {
+        "name": "Dr. Mia Jackson",
+        "department": "Surgery",
+        "expertise": "Laparoscopic Surgeon",
+        "contact_extension": 157
+      },
+      {
+        "name": "Dr. Ava Gonzalez",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 158
+      },
+      {
+        "name": "Dr. Daniel Nguyen",
+        "department": "Gastroenterology",
+        "expertise": "Endoscopist",
+        "contact_extension": 159
+      },
+      {
+        "name": "Dr. John Moore",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 160
+      },
+      {
+        "name": "Dr. Alexander Kim",
+        "department": "Pediatrics",
+        "expertise": "Pediatric Surgeon",
+        "contact_extension": 161
+      },
+      {
+        "name": "Dr. Hannah Lee",
+        "department": "Oncology",
+        "expertise": "Chemotherapy Specialist",
+        "contact_extension": 162
+      },
+      {
+        "name": "Dr. Fatima Jackson",
+        "department": "Pediatrics",
+        "expertise": "Vaccination",
+        "contact_extension": 163
+      },
+      {
+        "name": "Dr. Ethan Gonzalez",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 164
+      },
+      {
+        "name": "Dr. David Davis",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 165
+      },
+      {
+        "name": "Dr. Ava Thomas",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 166
+      },
+      {
+        "name": "Dr. William Taylor",
+        "department": "Oncology",
+        "expertise": "Pediatric Oncologist",
+        "contact_extension": 167
+      },
+      {
+        "name": "Dr. Joseph Gonzalez",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 168
+      },
+      {
+        "name": "Dr. Hannah Lopez",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 169
+      },
+      {
+        "name": "Dr. Sophia Kim",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 170
+      },
+      {
+        "name": "Dr. Emily Anderson",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 171
+      },
+      {
+        "name": "Dr. Hannah Gonzalez",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 172
+      },
+      {
+        "name": "Dr. Ava Wilson",
+        "department": "Oncology",
+        "expertise": "Pediatric Oncologist",
+        "contact_extension": 173
+      },
+      {
+        "name": "Dr. Daniel Lee",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 174
+      },
+      {
+        "name": "Dr. Fatima Gonzalez",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 175
+      },
+      {
+        "name": "Dr. Michael Smith",
+        "department": "Gastroenterology",
+        "expertise": "Endoscopist",
+        "contact_extension": 176
+      },
+      {
+        "name": "Dr. John Lee",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 177
+      },
+      {
+        "name": "Dr. Charlotte Ramirez",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 178
+      },
+      {
+        "name": "Dr. Fatima Patel",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 179
+      },
+      {
+        "name": "Dr. Sophia Anderson",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 180
+      },
+      {
+        "name": "Dr. Hannah Smith",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 181
+      },
+      {
+        "name": "Dr. Michael Moore",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 182
+      },
+      {
+        "name": "Dr. Olivia Carter",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 183
+      },
+      {
+        "name": "Dr. Sophia Nguyen",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 184
+      },
+      {
+        "name": "Dr. Michael Taylor",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 185
+      },
+      {
+        "name": "Dr. Alexander Lopez",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 186
+      },
+      {
+        "name": "Dr. Olivia Martinez",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 187
+      },
+      {
+        "name": "Dr. Hannah Ali",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 188
+      },
+      {
+        "name": "Dr. Robert Johnson",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 189
+      },
+      {
+        "name": "Dr. Isabella Brown",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 190
+      },
+      {
+        "name": "Dr. Alexander Lee",
+        "department": "Pediatrics",
+        "expertise": "Pediatric Surgeon",
+        "contact_extension": 191
+      },
+      {
+        "name": "Dr. Emily Patel",
+        "department": "Obstetrics",
+        "expertise": "High-Risk Pregnancy",
+        "contact_extension": 192
+      },
+      {
+        "name": "Dr. Mia Taylor",
+        "department": "Emergency",
+        "expertise": "Trauma Specialist",
+        "contact_extension": 193
+      },
+      {
+        "name": "Dr. David Lee",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 194
+      },
+      {
+        "name": "Dr. James Ramirez",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 195
+      },
+      {
+        "name": "Dr. William Lee",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 196
+      },
+      {
+        "name": "Dr. James Thomas",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 197
+      },
+      {
+        "name": "Dr. Hannah Kim",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 198
+      },
+      {
+        "name": "Dr. Fatima Lee",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 199
+      },
+      {
+        "name": "Dr. Alexander Davis",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 200
+      },
+      {
+        "name": "Dr. Maria Brown",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 201
+      },
+      {
+        "name": "Dr. William Taylor",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 202
+      },
+      {
+        "name": "Dr. Isabella Patel",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 203
+      },
+      {
+        "name": "Dr. Hannah Gonzalez",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 204
+      },
+      {
+        "name": "Dr. Ava Brown",
+        "department": "Gastroenterology",
+        "expertise": "Endoscopist",
+        "contact_extension": 205
+      },
+      {
+        "name": "Dr. Fatima Davis",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 206
+      },
+      {
+        "name": "Dr. Charlotte Smith",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 207
+      },
+      {
+        "name": "Dr. Fatima Brown",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 208
+      },
+      {
+        "name": "Dr. Maria Moore",
+        "department": "Obstetrics",
+        "expertise": "High-Risk Pregnancy",
+        "contact_extension": 209
+      },
+      {
+        "name": "Dr. John Wilson",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 210
+      },
+      {
+        "name": "Dr. Daniel Martinez",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 211
+      },
+      {
+        "name": "Dr. Mia Brown",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 212
+      },
+      {
+        "name": "Dr. Isabella Thomas",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 213
+      },
+      {
+        "name": "Dr. Joseph Jackson",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 214
+      },
+      {
+        "name": "Dr. Michael Martinez",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 215
+      },
+      {
+        "name": "Dr. Mia Smith",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 216
+      },
+      {
+        "name": "Dr. David Moore",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 217
+      },
+      {
+        "name": "Dr. Ava Thomas",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 218
+      },
+      {
+        "name": "Dr. Mia Patel",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 219
+      },
+      {
+        "name": "Dr. Emily Lopez",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 220
+      },
+      {
+        "name": "Dr. Michael Carter",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 221
+      },
+      {
+        "name": "Dr. Olivia Gonzalez",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 222
+      },
+      {
+        "name": "Dr. Maria Johnson",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 223
+      },
+      {
+        "name": "Dr. Joseph Gonzalez",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 224
+      },
+      {
+        "name": "Dr. Daniel Brown",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 225
+      },
+      {
+        "name": "Dr. William Martinez",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 226
+      },
+      {
+        "name": "Dr. Ethan Anderson",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 227
+      },
+      {
+        "name": "Dr. Isabella Ramirez",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 228
+      },
+      {
+        "name": "Dr. Michael Thomas",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 229
+      },
+      {
+        "name": "Dr. Hannah Brown",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 230
+      },
+      {
+        "name": "Dr. Joseph Nguyen",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 231
+      },
+      {
+        "name": "Dr. Maria Jackson",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 232
+      },
+      {
+        "name": "Dr. Alexander Johnson",
+        "department": "Pediatrics",
+        "expertise": "Vaccination",
+        "contact_extension": 233
+      },
+      {
+        "name": "Dr. James Jackson",
+        "department": "Emergency",
+        "expertise": "Emergency Physician",
+        "contact_extension": 234
+      },
+      {
+        "name": "Dr. Hannah Johnson",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 235
+      },
+      {
+        "name": "Dr. John Carter",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 236
+      },
+      {
+        "name": "Dr. Joseph Davis",
+        "department": "Gastroenterology",
+        "expertise": "Endoscopist",
+        "contact_extension": 237
+      },
+      {
+        "name": "Dr. Ethan Smith",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 238
+      },
+      {
+        "name": "Dr. William Taylor",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 239
+      },
+      {
+        "name": "Dr. Fatima Lee",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 240
+      },
+      {
+        "name": "Dr. Joseph Gonzalez",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 241
+      },
+      {
+        "name": "Dr. Emily Lopez",
+        "department": "Surgery",
+        "expertise": "Laparoscopic Surgeon",
+        "contact_extension": 242
+      },
+      {
+        "name": "Dr. Michael Jackson",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 243
+      },
+      {
+        "name": "Dr. Hannah Carter",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 244
+      },
+      {
+        "name": "Dr. Ethan Wilson",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 245
+      },
+      {
+        "name": "Dr. Mia Ramirez",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 246
+      },
+      {
+        "name": "Dr. Mia Moore",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 247
+      },
+      {
+        "name": "Dr. Daniel Martinez",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 248
+      },
+      {
+        "name": "Dr. David Nguyen",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 249
+      },
+      {
+        "name": "Dr. James Brown",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 250
+      },
+      {
+        "name": "Dr. Isabella Kim",
+        "department": "Neurology",
+        "expertise": "Neurophysiologist",
+        "contact_extension": 251
+      },
+      {
+        "name": "Dr. Michael Moore",
+        "department": "Pediatrics",
+        "expertise": "Child Care",
+        "contact_extension": 252
+      },
+      {
+        "name": "Dr. Olivia Smith",
+        "department": "Hematology",
+        "expertise": "Hemophilia Specialist",
+        "contact_extension": 253
+      },
+      {
+        "name": "Dr. Alexander Carter",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 254
+      },
+      {
+        "name": "Dr. Olivia Thomas",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 255
+      },
+      {
+        "name": "Dr. James Wilson",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 256
+      },
+      {
+        "name": "Dr. Joseph Anderson",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 257
+      },
+      {
+        "name": "Dr. Isabella Lee",
+        "department": "Gastroenterology",
+        "expertise": "Liver Specialist",
+        "contact_extension": 258
+      },
+      {
+        "name": "Dr. Robert Patel",
+        "department": "Cardiology",
+        "expertise": "Heart Failure Specialist",
+        "contact_extension": 259
+      },
+      {
+        "name": "Dr. Hannah Brown",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 260
+      },
+      {
+        "name": "Dr. Emily Gonzalez",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 261
+      },
+      {
+        "name": "Dr. James Ramirez",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 262
+      },
+      {
+        "name": "Dr. Sophia Brown",
+        "department": "Pediatrics",
+        "expertise": "Vaccination",
+        "contact_extension": 263
+      },
+      {
+        "name": "Dr. Olivia Moore",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 264
+      },
+      {
+        "name": "Dr. Isabella Martinez",
+        "department": "Emergency",
+        "expertise": "Trauma Specialist",
+        "contact_extension": 265
+      },
+      {
+        "name": "Dr. Daniel Jackson",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 266
+      },
+      {
+        "name": "Dr. Sophia Brown",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 267
+      },
+      {
+        "name": "Dr. Sophia Smith",
+        "department": "Hematology",
+        "expertise": "Transfusion Medicine",
+        "contact_extension": 268
+      },
+      {
+        "name": "Dr. Alexander Wilson",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 269
+      },
+      {
+        "name": "Dr. Alexander Jackson",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 270
+      },
+      {
+        "name": "Dr. Emily Kim",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 271
+      },
+      {
+        "name": "Dr. Charlotte Moore",
+        "department": "Oncology",
+        "expertise": "Chemotherapy Specialist",
+        "contact_extension": 272
+      },
+      {
+        "name": "Dr. Emily Carter",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 273
+      },
+      {
+        "name": "Dr. William Patel",
+        "department": "Surgery",
+        "expertise": "Laparoscopic Surgeon",
+        "contact_extension": 274
+      },
+      {
+        "name": "Dr. Hannah Martinez",
+        "department": "Neurology",
+        "expertise": "Epileptologist",
+        "contact_extension": 275
+      },
+      {
+        "name": "Dr. Mia Smith",
+        "department": "Surgery",
+        "expertise": "Laparoscopic Surgeon",
+        "contact_extension": 276
+      },
+      {
+        "name": "Dr. Emily Smith",
+        "department": "Oncology",
+        "expertise": "Radiation Oncologist",
+        "contact_extension": 277
+      },
+      {
+        "name": "Dr. Maria Carter",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 278
+      },
+      {
+        "name": "Dr. Isabella Kim",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 279
+      },
+      {
+        "name": "Dr. Robert Wilson",
+        "department": "Obstetrics",
+        "expertise": "Gynecologist",
+        "contact_extension": 280
+      },
+      {
+        "name": "Dr. William Lee",
+        "department": "Surgery",
+        "expertise": "Transplant Surgeon",
+        "contact_extension": 281
+      },
+      {
+        "name": "Dr. Charlotte Kim",
+        "department": "Radiology",
+        "expertise": "MRI Specialist",
+        "contact_extension": 282
+      },
+      {
+        "name": "Dr. Charlotte Jackson",
+        "department": "Gastroenterology",
+        "expertise": "Digestive Disorders",
+        "contact_extension": 283
+      },
+      {
+        "name": "Dr. Sophia Carter",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 284
+      },
+      {
+        "name": "Dr. Maria Carter",
+        "department": "Cardiology",
+        "expertise": "Electrophysiologist",
+        "contact_extension": 285
+      },
+      {
+        "name": "Dr. John Lopez",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 286
+      },
+      {
+        "name": "Dr. Hannah Anderson",
+        "department": "Emergency",
+        "expertise": "Emergency Physician",
+        "contact_extension": 287
+      },
+      {
+        "name": "Dr. Olivia Nguyen",
+        "department": "Hematology",
+        "expertise": "Blood Cancer Specialist",
+        "contact_extension": 288
+      },
+      {
+        "name": "Dr. Sophia Ali",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 289
+      },
+      {
+        "name": "Dr. Robert Anderson",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 290
+      },
+      {
+        "name": "Dr. Maria Thomas",
+        "department": "Pediatrics",
+        "expertise": "Vaccination",
+        "contact_extension": 291
+      },
+      {
+        "name": "Dr. Emily Thomas",
+        "department": "Obstetrics",
+        "expertise": "Fertility Specialist",
+        "contact_extension": 292
+      },
+      {
+        "name": "Dr. Robert Carter",
+        "department": "Radiology",
+        "expertise": "Ultrasound Imaging",
+        "contact_extension": 293
+      },
+      {
+        "name": "Dr. James Smith",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 294
+      },
+      {
+        "name": "Dr. Robert Brown",
+        "department": "Radiology",
+        "expertise": "CT Imaging",
+        "contact_extension": 295
+      },
+      {
+        "name": "Dr. Robert Taylor",
+        "department": "Cardiology",
+        "expertise": "Interventional Cardiologist",
+        "contact_extension": 296
+      },
+      {
+        "name": "Dr. Isabella Johnson",
+        "department": "Pediatrics",
+        "expertise": "Pediatric Surgeon",
+        "contact_extension": 297
+      },
+      {
+        "name": "Dr. Olivia Wilson",
+        "department": "Neurology",
+        "expertise": "Stroke Specialist",
+        "contact_extension": 298
+      },
+      {
+        "name": "Dr. Daniel Davis",
+        "department": "Emergency",
+        "expertise": "Critical Care",
+        "contact_extension": 299
+      }
+    ]
+  }
+}
