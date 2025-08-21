@@ -1,7 +1,7 @@
 """
-CLI Chatbot with RAG (Hospital Dataset)
-- Context-aware assistant (Hospital / Concierge roles).
-- Retrieval-Augmented Generation (RAG) with hospital JSON.
+CLI Chatbot with RAG (Hospital + Concierge)
+- Context-aware assistant with role selection.
+- Retrieval-Augmented Generation (RAG) using JSON datasets.
 - Commands: /reset /exit /help
 """
 
@@ -26,7 +26,7 @@ load_dotenv(override=True)
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 TEMPERATURE = float(os.getenv("CHAT_TEMPERATURE", "0.4"))
 MAX_TURNS_MEMORY = 8
-DB_NAME = "hospital_vector_db"
+DB_NAME = "vector_db"
 
 # ---------------- Role Prompts ----------------
 HOSPITAL_SYSTEM_PROMPT = """You are Mirokaï, a courteous hospital assistant robot.
@@ -49,6 +49,10 @@ ROLE_TO_PROMPT = {
     "concierge": CONCIERGE_SYSTEM_PROMPT,
 }
 
+ROLE_TO_DATASET = {
+    "hospital": "california_general_hospital.json",
+    "concierge": "Concierge_dataset.json",
+}
 
 # -------------- Build RAG Pipeline --------------
 def build_rag_chain(json_file: str):
@@ -58,7 +62,7 @@ def build_rag_chain(json_file: str):
 
     documents = []
 
-    # Flatten hospital JSON into documents
+    # Flatten JSON into documents
     def flatten_dict(d, prefix=""):
         text_parts = []
         if isinstance(d, dict):
@@ -72,7 +76,7 @@ def build_rag_chain(json_file: str):
         return text_parts
 
     flat_text = " ".join(flatten_dict(data))
-    documents.append(Document(page_content=flat_text, metadata={"source": "hospital_dataset"}))
+    documents.append(Document(page_content=flat_text, metadata={"source": json_file}))
 
     # Split into chunks
     splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
@@ -88,12 +92,11 @@ def build_rag_chain(json_file: str):
 
     llm = ChatOpenAI(model_name=MODEL, temperature=TEMPERATURE)
 
-    memory = ConversationBufferMemory(memory_key="chat_history", k=MAX_TURNS_MEMORY,return_messages=True)
+    memory = ConversationBufferMemory(memory_key="chat_history", k=MAX_TURNS_MEMORY, return_messages=True)
 
     chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectorstore.as_retriever(), memory=memory)
 
     return chain
-
 
 # -------------- Chatbot Wrapper --------------
 class Chatbot:
@@ -112,31 +115,38 @@ class Chatbot:
         # Reset conversation memory
         self.chain.memory.clear()
 
-
 # -------------- CLI Loop --------------
 def print_header(role: str):
     print("=" * 64)
-    print(f"Mirokaï CLI Chatbot  •  Role: {role}")
+    print(f"Mirokaï CLI Chatbot  •  Role: {role.capitalize()}")
     print("Commands: /reset  /exit  /help")
     print("=" * 64)
 
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--role", choices=["hospital", "concierge"], default="hospital")
-    parser.add_argument("--data", default="california_general_hospital.json", help="Path to hospital JSON file")
+    parser.add_argument("--role", choices=["hospital", "concierge"], default=None,
+                        help="Choose chatbot role")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
-    rag_chain = build_rag_chain(args.data)
-    bot = Chatbot(role=args.role, rag_chain=rag_chain, verbose=args.verbose)
+    # If no role provided, ask interactively
+    role = args.role
+    if not role:
+        role = input("Choose role (hospital/concierge): ").strip().lower()
+        if role not in ROLE_TO_PROMPT:
+            print("Invalid role. Exiting.")
+            return
 
-    print_header(args.role)
+    dataset = ROLE_TO_DATASET[role]
+    rag_chain = build_rag_chain(dataset)
+    bot = Chatbot(role=role, rag_chain=rag_chain, verbose=args.verbose)
+
+    print_header(role)
 
     greeting = {
         "hospital": "Hello, I'm Mirokaï. How can I help you today? (I can give directions and hospital info; I don't provide medical advice.)",
         "concierge": "Welcome! I'm Mirokaï at your service. What can I help you with—directions, recommendations, or check-in info?"
-    }[args.role]
+    }[role]
     print(f"Mirokaï: {greeting}")
 
     while True:
@@ -161,7 +171,6 @@ def main():
 
         reply = bot.ask(user_text)
         print(f"Mirokaï: {reply}")
-
 
 if __name__ == "__main__":
     main()
