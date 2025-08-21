@@ -10,8 +10,6 @@ import google.generativeai as genai
 import anthropic
 import gradio as gr
 
-# Load environment variables in a file called .env
-# Print the key prefixes to help with any debugging
 
 load_dotenv(override=True)
 openai_api_key = os.getenv('OPENAI_API_KEY')
@@ -31,15 +29,13 @@ openai = OpenAI()
 genai.configure()
 
 
-# With massive thanks to Bill G. who noticed that a prior version of this had a bug! Now fixed.
-
 system_message = "You are an assistant that analyzes the contents of a company website landing page \
 and creates a short brochure about the company for prospective customers, investors and recruits. Respond in markdown."
 
 def stream_gemini(prompt, system_message="You are a helpful assistant."):
     # Create a GenerativeModel instance with a system instruction
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",  # or "gemini-1.5-pro"
+        model_name="gemini-1.5-flash",  
         system_instruction=system_message
     )
 
@@ -57,10 +53,6 @@ def stream_gemini(prompt, system_message="You are a helpful assistant."):
             yield response
 
 
-# Let's create a call that streams back results
-# If you'd like a refresher on Generators (the "yield" keyword),
-# Please take a look at the Intermediate Python notebook in week1 folder.
-
 def stream_gpt(prompt):
     messages = [
         {"role": "system", "content": system_message},
@@ -73,11 +65,9 @@ def stream_gpt(prompt):
     )
     result = ""
     for chunk in stream:
-        result += chunk.choices[0].delta.content or "" # if we do not use whole results as a return each chunk will disappear and be replaced with other chunks  
-        yield result
+        result += chunk.choices[0].delta.content or ""
         
         
-# A class to represent a Webpage
 
 class Website:
     url: str
