@@ -7,7 +7,8 @@ This repo includes:
 - A **CLI chatbot** (`mini_chat_bot_RAG.py`)  
 - A **company brochure demo** (`Enchanted_Tools_company_brochure.py`)  
 - A **RAG chatbot demo for company info** (`Enchanted_Tools_company_mini_chat_bot_RAG.py`)  
-- An **imaginary hospital dataset** (`california_general_hospital.json`)  
+- An **imaginary hospital dataset** (`california_general_hospital.json`)
+- An **imaginary hotel dataset** (`Concierge_dataset.json`)  
 - Supporting images and output screenshots  
 
 ⚠️ **Note:** All hospital information is **imaginary** and created only for demo/testing purposes. It is **not real medical data** and should never be used for actual healthcare guidance.  
@@ -17,7 +18,7 @@ This repo includes:
 ## ✨ Features
 - 🤖 **Two roles**: Hospital Assistant & Concierge  
 - 💬 **CLI chatbot** with commands `/reset`, `/help`, `/exit`  
-- 📚 **RAG integration**: retrieves answers from JSON dataset (`california_general_hospital.json`)  
+- 📚 **RAG integration**: retrieves answers from JSON datasets (`california_general_hospital.json`, `Concierge_dataset.json`)  
 - 🧠 **Conversation memory** (remembers context across turns)  
 - 🏨 **Hospital Demo**: answers questions about departments, doctors, transport, parking, etc.  
 - 📄 **Company Brochure Demo**: shows brochure generation and information retrieval for "Enchanted Tools"  
@@ -111,6 +112,23 @@ Mirokaï: There is an onsite bus station with a shuttle to the city center every
 - **Facilities**: Ambulances (100), Helipads (2), Parking (5 lots), Hotel nearby, Bus station, Taxi stand  
 
 See [`california_general_hospital.json`](./california_general_hospital.json) for the full dataset.  
+
+🏨 Dataset: California Grand Luxury Hotel
+
+Floors: 10
+
+Rooms: 904 (incl. luxury & presidential suites)
+
+Staff: 850
+
+Dining: 3 restaurants (fine dining, rooftop bar, organic café)
+
+Facilities: 3 ballrooms, 12 meeting rooms, 4 swimming pools, tennis court, spa & wellness, cinema, live music lounge
+
+Transport: Rooftop helipad, 3 parking lots (valet available), 24/7 taxi station, airport/downtown shuttle, limousine service
+
+See Concierge_dataset.json
+ for the full dataset.
 
 ---
 
