@@ -113,7 +113,7 @@ Mirokaï: There is an onsite bus station with a shuttle to the city center every
 
 See [`california_general_hospital.json`](./california_general_hospital.json) for the full dataset.  
 
-🏨 Dataset: California Grand Luxury Hotel
+## 🏨 Dataset: California Grand Luxury Hotel
 
 Floors: 10
 
