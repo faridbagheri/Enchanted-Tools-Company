@@ -32,6 +32,7 @@ This repo includes:
 ├── Enchanted_Tools_company_mini_chat_bot_RAG.py  # Company chatbot demo with RAG
 ├── Enchanted_Tools_company_brochure.py      # Brochure generation demo
 ├── california_general_hospital.json          # Imaginary hospital dataset
+├── Concierge_dataset.json                    # Imaginary hotel dataset
 ├── healthcare-layout-of-hospital.png         # Hospital floor plan illustration
 ├── outputs/
 │   ├── RAG_Enchanted_output_1.png            # Example RAG chatbot output
