@@ -1,0 +1,481 @@
+{
+  "hotel": {
+    "name": "California Grand Luxury Hotel",
+    "location": "Los Angeles, California, USA",
+    "address": "500 Sunset Blvd, Los Angeles, CA 90028, United States",
+    "website": "https://www.californiagrandluxuryhotel.com",
+    "type": "5-Star Luxury Hotel & Resort",
+    "capacity": {
+      "total_rooms": 904,
+      "floors": 10,
+      "rooms_per_floor": 100,
+      "staff": 850
+    },
+    "infrastructure": {
+      "floors": 10,
+      "rooms_distribution": {
+        "floors_1_to_8": {
+          "rooms_each_floor": {
+            "single_bed": 10,
+            "double_bed": 10,
+            "triple_bed": 10,
+            "king_bed": 70
+          }
+        },
+        "floors_9_and_10": {
+          "suites": 4,
+          "features": [
+            "Private jacuzzi",
+            "Panoramic city/sea views",
+            "Personal butler service",
+            "Private dining area",
+            "Smart home control system"
+          ]
+        }
+      },
+      "entrances": 3,
+      "elevators": 12,
+      "parking_lots": {
+        "total": 3,
+        "underground": 2,
+        "open_air": 1,
+        "valet_service": true
+      },
+      "helipad": "Rooftop, accessible 24/7 for private helicopters",
+      "transport": {
+        "taxi_station": "Available near the main entrance 24/7",
+        "shuttle_service": "Complimentary shuttles to airport and downtown every 30 minutes",
+        "limousine_service": "Available on request"
+      },
+      "basement_facilities": [
+        "Luxury Bar",
+        "Fine Dining Restaurant",
+        "International Food Court",
+        "Indoor Kids Play Zone",
+        "Night Club"
+      ],
+      "outdoor_facilities": [
+        "Tennis Court",
+        "4 Swimming Pools (2 rooftop infinity, 2 garden pools)",
+        "Jacuzzi",
+        "Hot Baths",
+        "Spa & Wellness Center",
+        "Meditation Garden"
+      ],
+      "conference_and_event_spaces": {
+        "ballrooms": 3,
+        "meeting_rooms": 12,
+        "wedding_terrace": true
+      },
+      "entertainment": {
+        "casino": false,
+        "cinema": true,
+        "live_music_lounge": true
+      }
+    },
+    "rooms": {
+      "single_bed": {
+        "features": [
+          "1 single bed with luxury linens",
+          "Smart TV with streaming apps",
+          "Mini fridge & coffee maker",
+          "Private bathroom with shower",
+          "Work desk & chair",
+          "High-speed Wi-Fi"
+        ]
+      },
+      "double_bed": {
+        "features": [
+          "2 double beds with premium linens",
+          "Smart TV and sound system",
+          "Private bathroom with bathtub",
+          "Mini bar",
+          "In-room safe",
+          "Balcony (select rooms)"
+        ]
+      },
+      "triple_bed": {
+        "features": [
+          "3 beds with orthopedic mattresses",
+          "Large smart TV",
+          "Mini fridge & mini bar",
+          "Family-size bathroom",
+          "Luggage storage space",
+          "Complimentary breakfast vouchers"
+        ]
+      },
+      "king_bed": {
+        "features": [
+          "1 king-size bed with luxury bedding",
+          "Walk-in closet",
+          "Private bathroom with rain shower & bathtub",
+          "Smart TV with surround sound",
+          "Workspace with ergonomic chair",
+          "Balcony with view"
+        ]
+      },
+      "suite": {
+        "features": [
+          "Private living room and bedroom",
+          "Panoramic city or ocean view",
+          "Private jacuzzi & sauna",
+          "Dining table with 6 seats",
+          "Fully stocked bar",
+          "Butler service 24/7",
+          "Private elevator access"
+        ]
+      }
+    },
+    "dining": {
+      "restaurants": [
+        {
+          "name": "Sunset Fine Dining",
+          "cuisine": "International Gourmet",
+          "specialty": "Michelin-star chef tasting menu",
+          "location": "Basement Level"
+        },
+        {
+          "name": "Skyline Rooftop Bar",
+          "cuisine": "Cocktails & Tapas",
+          "specialty": "City view cocktails",
+          "location": "Rooftop"
+        },
+        {
+          "name": "Garden Court Caf\u00e9",
+          "cuisine": "Organic & Vegan",
+          "specialty": "Farm-to-table brunch",
+          "location": "Ground Floor"
+        }
+      ],
+      "meal_times": {
+        "breakfast": "6:30 AM - 10:30 AM",
+        "lunch": "12:00 PM - 3:00 PM",
+        "dinner": "6:00 PM - 10:30 PM",
+        "self_service": "24/7 available at Food Court & Lobby Lounge"
+      }
+    },
+    "guest_services": [
+      "24/7 Room Service",
+      "Daily Housekeeping",
+      "Laundry & Dry Cleaning",
+      "Kids Club & Babysitting",
+      "Valet Parking",
+      "Airport Shuttle",
+      "Spa & Wellness Packages",
+      "Tour & Ticket Assistance"
+    ],
+    "floors": [
+      {
+        "floor": 1,
+        "facilities": [
+          "Reception & Lobby",
+          "Concierge Desk",
+          "Coffee Lounge",
+          "Boutique Shops",
+          "Travel Desk"
+        ],
+        "rooms": 100
+      },
+      {
+        "floor": 2,
+        "facilities": [
+          "Gym & Fitness Center",
+          "Indoor Spa",
+          "Wellness Center"
+        ],
+        "rooms": 100
+      },
+      {
+        "floor": 3,
+        "facilities": [
+          "Banquet Halls",
+          "Conference Rooms",
+          "Business Lounge"
+        ],
+        "rooms": 100
+      },
+      {
+        "floor": 4,
+        "rooms": 100
+      },
+      {
+        "floor": 5,
+        "rooms": 100
+      },
+      {
+        "floor": 6,
+        "rooms": 100
+      },
+      {
+        "floor": 7,
+        "rooms": 100
+      },
+      {
+        "floor": 8,
+        "rooms": 100
+      },
+      {
+        "floor": 9,
+        "rooms": 4,
+        "type": "Luxury Suites"
+      },
+      {
+        "floor": 10,
+        "rooms": 4,
+        "type": "Presidential & Royal Suites"
+      }
+    ],
+    "staff": [
+      {
+        "name": "Staff Member 1",
+        "role": "General Manager",
+        "contact_extension": 101
+      },
+      {
+        "name": "Staff Member 2",
+        "role": "Head Concierge",
+        "contact_extension": 102
+      },
+      {
+        "name": "Staff Member 3",
+        "role": "Executive Chef",
+        "contact_extension": 103
+      },
+      {
+        "name": "Staff Member 4",
+        "role": "Events & Wedding Coordinator",
+        "contact_extension": 104
+      },
+      {
+        "name": "Staff Member 5",
+        "role": "Spa & Wellness Director",
+        "contact_extension": 105
+      },
+      {
+        "name": "Staff Member 6",
+        "role": "Head of Security",
+        "contact_extension": 106
+      },
+      {
+        "name": "Staff Member 7",
+        "role": "Assistant Manager",
+        "contact_extension": 107
+      },
+      {
+        "name": "Staff Member 8",
+        "role": "Sous Chef",
+        "contact_extension": 108
+      },
+      {
+        "name": "Staff Member 9",
+        "role": "Pastry Chef",
+        "contact_extension": 109
+      },
+      {
+        "name": "Staff Member 10",
+        "role": "Front Desk Supervisor",
+        "contact_extension": 110
+      },
+      {
+        "name": "Staff Member 11",
+        "role": "Housekeeping Manager",
+        "contact_extension": 111
+      },
+      {
+        "name": "Staff Member 12",
+        "role": "Head Bartender",
+        "contact_extension": 112
+      },
+      {
+        "name": "Staff Member 13",
+        "role": "Guest Relations Officer",
+        "contact_extension": 113
+      },
+      {
+        "name": "Staff Member 14",
+        "role": "Transport & Shuttle Coordinator",
+        "contact_extension": 114
+      },
+      {
+        "name": "Staff Member 15",
+        "role": "Pool & Recreation Manager",
+        "contact_extension": 115
+      },
+      {
+        "name": "Staff Member 16",
+        "role": "Banquet Manager",
+        "contact_extension": 116
+      },
+      {
+        "name": "Staff Member 17",
+        "role": "Events Planner",
+        "contact_extension": 117
+      },
+      {
+        "name": "Staff Member 18",
+        "role": "IT & Smart Room Systems",
+        "contact_extension": 118
+      },
+      {
+        "name": "Staff Member 19",
+        "role": "Kids Club Supervisor",
+        "contact_extension": 119
+      },
+      {
+        "name": "Staff Member 20",
+        "role": "Maintenance Head",
+        "contact_extension": 120
+      },
+      {
+        "name": "Staff Member 21",
+        "role": "Spa Therapist",
+        "contact_extension": 121
+      },
+      {
+        "name": "Staff Member 22",
+        "role": "Sommelier",
+        "contact_extension": 122
+      },
+      {
+        "name": "Staff Member 23",
+        "role": "Marketing & PR Manager",
+        "contact_extension": 123
+      },
+      {
+        "name": "Staff Member 24",
+        "role": "Executive Housekeeper",
+        "contact_extension": 124
+      },
+      {
+        "name": "Staff Member 25",
+        "role": "Front Office Assistant",
+        "contact_extension": 125
+      },
+      {
+        "name": "Staff Member 26",
+        "role": "Fitness Trainer",
+        "contact_extension": 126
+      },
+      {
+        "name": "Staff Member 27",
+        "role": "Concierge Assistant",
+        "contact_extension": 127
+      },
+      {
+        "name": "Staff Member 28",
+        "role": "Bell Captain",
+        "contact_extension": 128
+      },
+      {
+        "name": "Staff Member 29",
+        "role": "Wellness Nutritionist",
+        "contact_extension": 129
+      },
+      {
+        "name": "Staff Member 30",
+        "role": "Audio/Visual Technician",
+        "contact_extension": 130
+      },
+      {
+        "name": "Staff Member 31",
+        "role": "Wedding Planner",
+        "contact_extension": 131
+      },
+      {
+        "name": "Staff Member 32",
+        "role": "VIP Guest Relations",
+        "contact_extension": 132
+      },
+      {
+        "name": "Staff Member 33",
+        "role": "Head Lifeguard",
+        "contact_extension": 133
+      },
+      {
+        "name": "Staff Member 34",
+        "role": "Tour Desk Agent",
+        "contact_extension": 134
+      },
+      {
+        "name": "Staff Member 35",
+        "role": "Head Engineer",
+        "contact_extension": 135
+      },
+      {
+        "name": "Staff Member 36",
+        "role": "Hotel Doctor",
+        "contact_extension": 136
+      },
+      {
+        "name": "Staff Member 37",
+        "role": "Security Supervisor",
+        "contact_extension": 137
+      },
+      {
+        "name": "Staff Member 38",
+        "role": "Reservation Specialist",
+        "contact_extension": 138
+      },
+      {
+        "name": "Staff Member 39",
+        "role": "Night Manager",
+        "contact_extension": 139
+      },
+      {
+        "name": "Staff Member 40",
+        "role": "Food Court Supervisor",
+        "contact_extension": 140
+      },
+      {
+        "name": "Staff Member 41",
+        "role": "Lighting & Decor Manager",
+        "contact_extension": 141
+      },
+      {
+        "name": "Staff Member 42",
+        "role": "Luxury Suite Butler",
+        "contact_extension": 142
+      },
+      {
+        "name": "Staff Member 43",
+        "role": "Royal Suite Butler",
+        "contact_extension": 143
+      },
+      {
+        "name": "Staff Member 44",
+        "role": "Spa Receptionist",
+        "contact_extension": 144
+      },
+      {
+        "name": "Staff Member 45",
+        "role": "Executive Sous Chef",
+        "contact_extension": 145
+      },
+      {
+        "name": "Staff Member 46",
+        "role": "Guest Feedback Officer",
+        "contact_extension": 146
+      },
+      {
+        "name": "Staff Member 47",
+        "role": "Transport Driver",
+        "contact_extension": 147
+      },
+      {
+        "name": "Staff Member 48",
+        "role": "Housekeeping Supervisor",
+        "contact_extension": 148
+      },
+      {
+        "name": "Staff Member 49",
+        "role": "Lobby Pianist",
+        "contact_extension": 149
+      },
+      {
+        "name": "Staff Member 50",
+        "role": "Casino Liaison",
+        "contact_extension": 150
+      }
+    ]
+  }
+}
