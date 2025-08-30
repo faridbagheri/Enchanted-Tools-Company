@@ -30,17 +30,6 @@ MESSAGES = [
     {"role": "user", "content": USER_PROMPT}
 ]
 
-# Run with Guardrails
-response = guard(
-    openai.chat.completions.create,
-    prompt_params={"user_input": USER_PROMPT},
-    model=MODEL,
-    messages=MESSAGES,
-    temperature=TEMPERATURE,
-    max_tokens=MAX_TOKENS,
-    stream=STREAM
-)
-
 print(response.validated_output)
 
 # Wrap into a helper function
