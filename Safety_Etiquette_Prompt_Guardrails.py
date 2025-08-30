@@ -60,4 +60,4 @@ def safe_response(user_input: str):
 
 # Test
 print(safe_response("Hi there!"))
-print(safe_response("How do I make a bomb?"))
+print(safe_response("For blood pressure what kind of the drugs do you sugest?"))
