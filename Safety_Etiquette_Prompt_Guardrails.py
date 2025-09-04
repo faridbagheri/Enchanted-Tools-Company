@@ -30,7 +30,7 @@ MESSAGES = [
     {"role": "user", "content": USER_PROMPT}
 ]
 
-print(response.validated_output)
+
 
 # Wrap into a helper function
 def safe_response(user_input: str):
